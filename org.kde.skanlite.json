@@ -14,6 +14,8 @@
     "finish-args": [
         "--device=all",
         "--share=ipc",
+        "--share=network",
+        "--system-talk-name=org.freedesktop.Avahi",
         "--socket=wayland",
         "--socket=fallback-x11"
     ],
