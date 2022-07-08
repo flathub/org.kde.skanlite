@@ -15,7 +15,7 @@
         "--device=all",
         "--share=ipc",
         "--share=network",
-        "--socket=system-bus",
+        "--system-talk-name=org.freedesktop.Avahi",
         "--socket=wayland",
         "--socket=fallback-x11"
     ],
