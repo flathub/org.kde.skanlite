@@ -1,0 +1,39 @@
+From 809f402c7296642f6d893e9aab7845f937cac380 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Timoth=C3=A9e=20Ravier?= <tim@siosm.fr>
+Date: Wed, 7 Feb 2024 13:19:58 +0100
+Subject: [PATCH] org.kde.skanlite.appdata: Add developer_name
+
+Fixes the following lint errors for Flathub:
+```
+{
+    "errors": [
+        "appstream-missing-developer-name"
+    ]
+}
+```
+
+See:
+- https://github.com/flathub/org.kde.kdenlive/pull/329
+- https://github.com/flathub-infra/flatpak-builder-lint/issues/274
+- https://freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-developer
+- https://freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-developer_name
+- https://mail.kde.org/pipermail/kde-devel/2024-February/002400.html
+---
+ src/org.kde.skanlite.appdata.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/org.kde.skanlite.appdata.xml b/src/org.kde.skanlite.appdata.xml
+index 48d3528..74acba2 100644
+--- a/src/org.kde.skanlite.appdata.xml
++++ b/src/org.kde.skanlite.appdata.xml
+@@ -3,6 +3,7 @@
+   <id>org.kde.skanlite.desktop</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-2.0+ and GFDL-1.3</project_license>
++  <developer_name translate="no">KDE</developer_name>
+   <name>Skanlite</name>
+   <name xml:lang="ar">سكانلايت</name>
+   <name xml:lang="az">Skanlite</name>
+-- 
+2.43.0
+

@@ -85,8 +85,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/alexpevzner/sane-airscan/archive/refs/tags/0.99.27.tar.gz",
-                    "sha256": "0d84ca10f9e80d8f5f6bc0f30911660667b6d5b9df8d3fd45be0dcc29775aa84",
+                    "url": "https://github.com/alexpevzner/sane-airscan/archive/refs/tags/0.99.28.tar.gz",
+                    "sha256": "dbc5ec153e3e2b526d3d82904d2b1e313be703bc90159ad90b48260919f58d14",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 121086,
@@ -112,6 +112,10 @@
                 {
                     "type": "patch",
                     "path": "appdata.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-org.kde.skanlite.appdata-Add-developer_name.patch"
                 }
             ]
         }
