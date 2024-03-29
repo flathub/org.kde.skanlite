@@ -71,6 +71,9 @@
         {
             "name": "libksane",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DQT_MAJOR_VERSION=6"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -99,6 +102,9 @@
         {
             "name": "skanlite",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DQT_MAJOR_VERSION=6"
+            ],
             "post-install": [
                 "mkdir -p /app/share/icons/hicolor/scalable/apps",
                 "cp /app/share/icons/hicolor/48x48/apps/org.kde.skanlite.svg /app/share/icons/hicolor/scalable/apps/"
