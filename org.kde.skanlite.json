@@ -70,6 +70,26 @@
             ]
         },
         {
+            "name": "ksanecore",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DQT_MAJOR_VERSION=6"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/ksanecore-24.02.1.tar.xz",
+                    "sha256": "b4fe58554fe2e3d69f399d674d9478ca0e8de865ddfbbd18f8e6966384727373",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/ksanecore-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "libksane",
             "buildsystem": "cmake-ninja",
             "config-opts": [
