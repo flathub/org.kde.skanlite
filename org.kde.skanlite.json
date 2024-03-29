@@ -113,7 +113,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/skanlite-21.12.3.tar.xz",
-                    "sha256": "77e09cee9f57e8bda4905d358ecf296528df8ad73c93f722c6ec689d65abbc19"
+                    "sha256": "77e09cee9f57e8bda4905d358ecf296528df8ad73c93f722c6ec689d65abbc19",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/skanlite-$version.tar.xz"
+                    }
                 },
                 {
                     "type": "patch",
