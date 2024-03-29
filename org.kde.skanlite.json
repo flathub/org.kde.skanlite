@@ -80,6 +80,10 @@
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/libksane-21.12.3.tar.xz",
                     "sha256": "ef8b823a11de933023061641627ab94b802d745ce5310c97469840ed09122232"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-CMakeLists-Use-QT_REQUIRED_VERSION-consistently.patch"
                 }
             ]
         },
