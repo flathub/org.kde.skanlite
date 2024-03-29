@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/libksane-21.12.3.tar.xz",
-                    "sha256": "ef8b823a11de933023061641627ab94b802d745ce5310c97469840ed09122232",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/libksane-24.02.1.tar.xz",
+                    "sha256": "f806dd3b396a8e3583320a8a8fa081ac171ae377c0b3748fd1e0e8acdae71bff",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
