@@ -28,6 +28,7 @@
                 "--disable-gtk",
                 "--disable-qt3",
                 "--disable-qt4",
+                "--disable-qt5",
                 "--disable-mono",
                 "--disable-monodoc",
                 "--with-distro=none",
