@@ -15,9 +15,9 @@
         "--device=all",
         "--share=ipc",
         "--share=network",
-        "--system-talk-name=org.freedesktop.Avahi",
+        "--socket=fallback-x11",
         "--socket=wayland",
-        "--socket=fallback-x11"
+        "--system-talk-name=org.freedesktop.Avahi"
     ],
     "modules": [
         "shared-modules/libusb/libusb.json",
