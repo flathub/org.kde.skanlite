@@ -154,10 +154,6 @@
                 },
                 {
                     "type": "patch",
-                    "path": "appdata.patch"
-                },
-                {
-                    "type": "patch",
                     "path": "0001-org.kde.skanlite.appdata-Add-developer_name.patch"
                 }
             ]
