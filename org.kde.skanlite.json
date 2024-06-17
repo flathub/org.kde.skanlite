@@ -106,10 +106,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libksane-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-CMakeLists-Use-QT_REQUIRED_VERSION-consistently.patch"
                 }
             ]
         },
@@ -151,10 +147,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/skanlite-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-org.kde.skanlite.appdata-Add-developer_name.patch"
                 }
             ]
         }
