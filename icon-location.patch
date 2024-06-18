@@ -1,0 +1,31 @@
+From 84331fade0d41355fb78aa07b350ef4604527745 Mon Sep 17 00:00:00 2001
+From: bbhtt <bbhtt.zn0i8@slmail.me>
+Date: Tue, 18 Jun 2024 10:08:26 +0530
+Subject: [PATCH] Fix filename of icon so that it is installed to proper
+ location
+
+---
+ CMakeLists.txt                                               | 2 +-
+ 48-apps-org.kde.skanlite.svg => sc-apps-org.kde.skanlite.svg | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ rename 48-apps-org.kde.skanlite.svg => sc-apps-org.kde.skanlite.svg (100%)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index f856d6e..fcece3f 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -88,6 +88,6 @@ if(BUILD_TESTING)
+    add_subdirectory(autotests)
+    add_subdirectory(tests)
+ endif()
+-ecm_install_icons(ICONS 48-apps-org.kde.skanlite.svg DESTINATION ${KDE_INSTALL_ICONDIR})
++ecm_install_icons(ICONS sc-apps-org.kde.skanlite.svg DESTINATION ${KDE_INSTALL_ICONDIR})
+ 
+ feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+diff --git a/48-apps-org.kde.skanlite.svg b/sc-apps-org.kde.skanlite.svg
+similarity index 100%
+rename from 48-apps-org.kde.skanlite.svg
+rename to sc-apps-org.kde.skanlite.svg
+-- 
+2.45.2
+

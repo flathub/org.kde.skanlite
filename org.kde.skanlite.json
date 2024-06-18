@@ -132,10 +132,6 @@
             "config-opts": [
                 "-DQT_MAJOR_VERSION=6"
             ],
-            "post-install": [
-                "mkdir -p /app/share/icons/hicolor/scalable/apps",
-                "cp /app/share/icons/hicolor/48x48/apps/org.kde.skanlite.svg /app/share/icons/hicolor/scalable/apps/"
-            ],
             "sources": [
                 {
                     "type": "archive",
@@ -147,6 +143,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/skanlite-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "icon-location.patch"
                 }
             ]
         }
