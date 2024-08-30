@@ -13,6 +13,7 @@
     ],
     "finish-args": [
         "--device=all",
+        "--env=SANE_CONFIG_DIR=/var/config/sane.d:",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
