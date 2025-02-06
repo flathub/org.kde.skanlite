@@ -79,8 +79,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/ksanecore-24.12.1.tar.xz",
-                    "sha256": "cb6d0ced7b817d12e4d7a6aadaa609da90776ce46b0b11fc73bdc902b188072e",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/ksanecore-24.12.2.tar.xz",
+                    "sha256": "10832182393f7a63d4eb223f1fafdada1c830b4cc88230e94c60e9337fbf84c3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -99,8 +99,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/libksane-24.12.1.tar.xz",
-                    "sha256": "ea85915c0cc333648fff48ec2b775d4a608d85db53ebd24d0aa08ca86e0d68eb",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/libksane-24.12.2.tar.xz",
+                    "sha256": "cc38a3d399525f8a9f2b62271e460794a6376a858c2140bab73bb0405f85a062",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -136,8 +136,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/skanlite-24.12.1.tar.xz",
-                    "sha256": "552849f3c092d7d1b2752f13d15913b44c6135d67aa64328a36b396fe15c2f8b",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/skanlite-24.12.2.tar.xz",
+                    "sha256": "d42c4431beb9166c7f097b741678be5f11cf16b009f32624f4d469a2377d7824",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
