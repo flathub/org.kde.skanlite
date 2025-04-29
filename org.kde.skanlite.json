@@ -116,8 +116,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/alexpevzner/sane-airscan/archive/refs/tags/0.99.34.tar.gz",
-                    "sha256": "da159fb231ee92bb5381620a43730f1fd7f78557b0eecee8d2eb848cafd90c43",
+                    "url": "https://github.com/alexpevzner/sane-airscan/archive/refs/tags/0.99.35.tar.gz",
+                    "sha256": "c947246c0e3bf0e2c79b3d795a8b59f0159d4ac81650ba8328ba8d49545eb308",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 121086,
