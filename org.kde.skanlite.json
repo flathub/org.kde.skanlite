@@ -1,7 +1,7 @@
 {
     "id": "org.kde.skanlite",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "skanlite",
     "cleanup": [
@@ -46,7 +46,12 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/lathiat/avahi/releases/download/v0.8/avahi-0.8.tar.gz",
-                    "sha256": "060309d7a333d38d951bc27598c677af1796934dbd98e1024e7ad8de798fedda"
+                    "sha256": "060309d7a333d38d951bc27598c677af1796934dbd98e1024e7ad8de798fedda",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 147,
+                        "url-template": "https://github.com/lathiat/avahi/releases/download/v$version/avahi-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -64,9 +69,14 @@
             ],
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://gitlab.com/sane-project/backends",
-                    "tag": "1.1.1"
+                    "type": "archive",
+                    "url": "https://gitlab.com/sane-project/backends/-/archive/1.4.0/backends-1.4.0.tar.gz",
+                    "sha256": "9c50ee76e35d98d7ae0cbb97d4c2a3c15663a78fdd74b0ed2bf2fe8e1a73f63a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 4760,
+                        "url-template": "https://gitlab.com/sane-project/backends/-/archive/$version/backends-$version.tar.gz"
+                    }
                 }
             ]
         },
