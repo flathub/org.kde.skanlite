@@ -7,9 +7,10 @@
     "cleanup": [
         "/include",
         "/lib/pkgconfig",
-        "/lib/*.a",
-        "/lib/*.la",
-        "/share/man"
+        "/share/doc",
+        "/share/man",
+        "*.la",
+        "*.a"
     ],
     "finish-args": [
         "--device=all",
