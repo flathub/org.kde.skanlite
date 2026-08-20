@@ -56,8 +56,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/ksanecore-26.04.3.tar.xz",
-                    "sha256": "e5c96840ba21e7afa6e0635b21cc117552898b14628d9555f2a600c77884747d",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/ksanecore-26.08.0.tar.xz",
+                    "sha256": "40f5fa99ba0f0f3459d9671219100de6b1ad170fce15827ccd79c5b2855eb303",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -76,8 +76,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/libksane-26.04.2.tar.xz",
-                    "sha256": "9266e5e33384da1cd7dc8a7fe236ff938e9f075bea9a20560884efcb7fb1c63b",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/libksane-26.08.0.tar.xz",
+                    "sha256": "987fb5a31f2304976018856afad47b7e92aa9f572f0ab981d1418da79302c207",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -93,8 +93,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/alexpevzner/sane-airscan/archive/refs/tags/0.99.37.tar.gz",
-                    "sha256": "b012d4ca8b526e28b0baf1e0dcc1504a1f67118914ee9362201d04a37dbf7e5f",
+                    "url": "https://github.com/alexpevzner/sane-airscan/archive/refs/tags/0.99.38.tar.gz",
+                    "sha256": "1e5b3b8373141caa37bf42fe74ae1950de3ff15c84966d8a415485d334ba5507",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 121086,
@@ -113,8 +113,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/skanlite-26.04.3.tar.xz",
-                    "sha256": "dac757451b430192a00eef7a90aad14f5e59d9460e9ff5fb162922ca47403417",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/skanlite-26.08.0.tar.xz",
+                    "sha256": "3dae13db8a8c280a7fc632b1803fa2958f32c01bb41d19da86ec26a8aa8c7f30",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
